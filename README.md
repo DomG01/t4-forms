@@ -3,7 +3,7 @@
 A Project allowing the making of forms through webhooks. Fivem & Discord Related.
   - Initaily going to entail a UI in-game.
   - An Ticket based ecosytem to store data.
-  - Taking inspiration from @Inside-Scripts/Fivem
+  - Taking inspiration from @OKOKScripts/Fivem
 
 # Getting Started with Create React App
 
