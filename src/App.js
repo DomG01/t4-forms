@@ -60,7 +60,7 @@ export default function App() {
     }
     `);
 
-    fetch('http://localhost:3000/data/', {
+    fetch('https://api.jsonbin.io/b/6229e045a703bb674927d4c5', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
