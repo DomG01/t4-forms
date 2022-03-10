@@ -60,7 +60,7 @@ export default function App() {
     }
     `);
 
-    fetch('https://api.jsonbin.io/b/6229e045a703bb674927d4c5', {
+    fetch('https://api.jsonbin.io/b/6229e045a703bb674927d4c5/data', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -204,15 +204,14 @@ export default function App() {
           required />
       </label>
 
-
       <label>
       <b>On A Scale of <code>1 / 10</code> Did You Enjoy Making Use Of Remote Working?</b>
-        <input
+        {/* <input
           name="answerSeven"
           type="answerSeven"
           value={answerSeven}
           onChange={e => setanswerSeven(e.target.value)}
-          required />
+          required /> */}
       </label>
       
       <div className="sliderbar" align="center">
