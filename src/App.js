@@ -207,7 +207,6 @@ export default function App() {
       <label>
       <b>On A Scale of <code>1 / 100</code> Did You Enjoy Making Use Of Remote Working?</b>
         <br></br>
-      <b><25 Being Not Enjoyable, 75> Being More Positive & You Can See Yourself Returning To Remote Working.</b>
 
         {/* <input
           name="answerSeven"
@@ -215,6 +214,7 @@ export default function App() {
           value={answerSeven}
           onChange={e => setanswerSeven(e.target.value)}
           required /> */}
+
       </label>
       
       <div className="sliderbar" align="center">
