@@ -66,7 +66,7 @@ export default function App() {
     }
     `);
 
-    fetch('https://dgit-json-db.herokuapp.com/data', {
+    fetch('https://dgit-json-server.herokuapp.com/data, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
