@@ -230,7 +230,6 @@ export default function App() {
       <Slider x={state.x} onChange={setState} />
       </div>  
 
-      </label>
       <br></br>
       <br></br>
       <br></br>
@@ -244,7 +243,6 @@ export default function App() {
           />
       </label>
 
-      </label>
       <br></br>
       <br></br>
       <br></br>
