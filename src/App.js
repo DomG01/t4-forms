@@ -25,6 +25,11 @@ export default function App() {
   const [answerSix, setanswerSix] = React.useState("");
   //const [answerSeven, setanswerSeven] = React.useState("");
   const [answerInt] = React.useState("");
+  
+  const [answerSeven, setanswerSeven] = React.useState("");
+  const [answerEight, setanswerEight] = React.useState("");
+
+
 
   //const [country, setCountry] = React.useState("");
   const [acceptedTerms, setAcceptedTerms] = React.useState(false);
@@ -55,6 +60,8 @@ export default function App() {
       answerFive: ${answerFive}
       answerSix: ${answerSix}
       answerInt: ${answerInt}
+      answerSeven: ${answerSeven}
+      answerEight: ${answerEight}
       Accepted Terms: ${acceptedTerms}
     }
     `);
@@ -77,6 +84,8 @@ export default function App() {
         answerFive: answerFive,
         answerSix: answerSix,
         answerInt: state.x,
+        answerSeven: answerSeven,
+        answerEight: answerEight,
       })
     })
     
@@ -220,6 +229,34 @@ export default function App() {
       ({state.x})
       <Slider x={state.x} onChange={setState} />
       </div>  
+
+      </label>
+      <br></br>
+      <br></br>
+      <br></br>
+      <label>
+      <b>When Working From Home, Did You Take Regualr Breaks?</b> (Leave Blank if This Does Not Apply)
+        <input
+          name="answerSeven"
+          type="answerSeven"
+          value={answerSeven}
+          onChange={e => setanswerSeven(e.target.value)}
+          />
+      </label>
+
+      </label>
+      <br></br>
+      <br></br>
+      <br></br>
+      <label>
+      <b>Does Your Abode Have Suitable Space For Work / A Work Room / Study?</b> (Leave Blank if This Does Not Apply)
+        <input
+          name="answerEight"
+          type="answerEight"
+          value={answerEight}
+          onChange={e => setanswerEight(e.target.value)}
+          />
+      </label>
 
       {/* <label>
         Country:
