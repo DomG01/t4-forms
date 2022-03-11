@@ -23,7 +23,7 @@ export default function App() {
   const [answerFour, setanswerFour] = React.useState("");
   const [answerFive, setanswerFive] = React.useState("");
   const [answerSix, setanswerSix] = React.useState("");
-  const [answerSeven, setanswerSeven] = React.useState("");
+  //const [answerSeven, setanswerSeven] = React.useState("");
   const [answerInt] = React.useState("");
 
   //const [country, setCountry] = React.useState("");
@@ -54,7 +54,6 @@ export default function App() {
       answerFour: ${answerFour}
       answerFive: ${answerFive}
       answerSix: ${answerSix}
-      answerSeven: ${answerSeven}
       answerInt: ${answerInt}
       Accepted Terms: ${acceptedTerms}
     }
@@ -77,7 +76,6 @@ export default function App() {
         answerFour: answerFour,
         answerFive: answerFive,
         answerSix: answerSix,
-        answerSeven: answerSeven,
         answerInt: state.x,
       })
     })
